@@ -8,3 +8,12 @@ def solution(s):
         # replace() argument 2 must be str, not int
         answer = answer.replace(i[0], str(i[1]))
     return int(answer)
+
+
+# cleancode
+def solution(s):
+    words = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+    # 인덱스를 숫자로 사용
+    for i in range(len(words)):
+        s = s.replace(words[i], str(i))
+    return int(s)
