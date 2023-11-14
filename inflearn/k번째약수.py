@@ -13,3 +13,6 @@ for i in range(1, n+1):
         break
 else: 
     print(-1)
+
+
+# 8,4 = 8
