@@ -1,3 +1,4 @@
+# k번째수 (자연수 N과 s부터 e번째까지 오름차순 정렬해서 k번째의 수)
 import sys
 sys.stdin=open("/K번째 수/in1.txt","rt")
 #sys.stdin은 표준 입력 스트림을 나타내는 파일 유사 객체. 
