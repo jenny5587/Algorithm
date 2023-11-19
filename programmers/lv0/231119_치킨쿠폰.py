@@ -17,3 +17,4 @@ def solution(chicken):
         answer += chicken
         chicken += mod
     return answer
+
